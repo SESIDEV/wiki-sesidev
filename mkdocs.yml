@@ -1,9 +1,24 @@
-site_name: My Docs
+site_name: Wiki de Tecnologias SESIDEV
 theme:
   name: material
+
 nav:
   - Home: index.md
-  - About: about.md
-  - Projects:
-      - Project 1: projects/project1.md
-      - Project 2: projects/project2.md
+  - Banco de Dados Relacional:
+      - Conceitos Básicos: postgress/conceitos-basicos.md
+      - Configuração de Ambiente: postgress/configuracao-ambiente.md
+  - Django Rest Framework:
+      - Introdução: drf/introducao.md
+      - Autenticação: drf/autenticacao.md
+  - DBT Core:
+      - Modelagem: dbt/modelagem.md
+      - Execução de Pipelines: dbt/execucao-pipelines.md
+  - Apache Airflow:
+      - Introdução: airflow/introducao.md
+      - Criação de DAGs: airflow/criacao-dags.md
+  - Jupyter Notebooks:
+      - Ambiente de Desenvolvimento: jupyter/ambiente.md
+      - Boas Práticas: jupyter/boas-praticas.md
+  - Docker:
+      - Conceitos de Containerização: docker/conceitos.md
+      - Criando e Executando Imagens Docker: docker/criacao-imagens.md
